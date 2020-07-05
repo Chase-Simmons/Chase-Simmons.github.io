@@ -5,6 +5,7 @@
 body 
 	{
 		font: 16px Times new Roman;
+		text-align: center;
 		background: url(Backgroundbase.jpg) width="100%";
 	}
 #bodyContainer
