@@ -12,3 +12,11 @@ body
 		width: 800px;
 		margin: 40px auto 60px;
 	}
+#button 
+	{
+		margin-left: 40%;
+		margin-right: 40%;
+		background-color: #213862;
+		border-radius: 15px;
+		height: 100px;
+	}
