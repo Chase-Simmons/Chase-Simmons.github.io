@@ -2,3 +2,8 @@
   {
 	  float: right;
   }
+body 
+	{
+	font: 16px Times new Roman;
+	background: url(Backgroundpicturebase.jpg);
+	}
