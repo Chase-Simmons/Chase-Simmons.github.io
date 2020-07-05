@@ -1,9 +1,14 @@
 #picture
-  {
-	  float: right;
-  }
+ 	 {
+		  float: right;
+ 	 }
 body 
 	{
-	font: 16px Times new Roman;
-	background: url(Backgroundbase.jpg);
+		font: 16px Times new Roman;
+		background: url(Backgroundbase.jpg);
+	}
+#bodyContainer
+	{
+		width: 800px;
+		margin: 40px auto 60px;
 	}
