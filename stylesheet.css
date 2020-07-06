@@ -1,8 +1,8 @@
-imageParent 
+.under-img 
 	{
 		position: relative;
 	}
-.under-img
+imageParent
 	{ 	
 		position: absolute;
     		top: 80%;
