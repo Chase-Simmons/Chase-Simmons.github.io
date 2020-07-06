@@ -6,9 +6,9 @@
 	{
 		background: url(Background.jpg) no-repeat center;
   		height: 300px;
-  		position: absolute;
-		top: 60px;
-      		left: 80px;
+  		position: relative;
+      		top: 0;
+      		left: 0;
 	}
 }
 body 
