@@ -3,16 +3,13 @@
 		position: absolute;
       		top: 60px;
       		left: 80px;
- 	 }
-#background
-	{
+		 
 		background: url(Background.jpg) no-repeat center;
   		height: 300px;
   		position: relative;
       		top: 0;
       		left: 0;
-	}
-}
+ 	 }
 body 
 	{
 		font: 18px Times New Roman;
