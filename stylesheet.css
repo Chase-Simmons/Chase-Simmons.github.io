@@ -2,7 +2,7 @@
  	 {
 		float : right;
 		 
-		background: url(Background.jpg) no-repeat center;
+		float: url(Background.jpg) no-repeat center;
   		height: 300px;
   		position: relative;
       		top: 0;
