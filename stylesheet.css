@@ -15,7 +15,7 @@ body
 		font-size: 22px;
 		font-weight: bold;
 		font-style: italic;
-		border-bottom: 1px solid;
+		border-bottom: 1px solid #999;
 	}
 .date
 	{
