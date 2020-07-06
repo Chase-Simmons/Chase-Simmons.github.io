@@ -1,12 +1,10 @@
-.under-img 
+#picture
 	{
-		position: relative;
-	}
-imageParent
-	{ 	
-		position: absolute;
-    		top: 80%;
-    		left: 20%;
+		float: right;
+	{		
+#background
+	{	
+		float: center;
 	}
 body 
 	{
