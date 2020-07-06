@@ -1,17 +1,13 @@
-#picture
- 	 {
-		  position:absolute;
-     		  top: 10px;
-      		  left: 10px;
-      		  z-index: 1;
- 	 }
-#background
- 	 {
-		  position:absolute;
-     		  top: 25px;
-      		  left: 25px;
-      		  z-index: 2;
- 	 }
+imageParent 
+	{
+		position: relative;
+	}
+.under-img
+	{ 	
+		position: absolute;
+    		top: 80%;
+    		left: 20%;
+	}
 body 
 	{
 		font: 18px Times new Roman;
