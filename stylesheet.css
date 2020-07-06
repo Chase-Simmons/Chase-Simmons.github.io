@@ -4,7 +4,9 @@
  	 }
 #background
 	{
-		float : top,center;
+		background-position: center;
+  		background-size: cover;
+  		background-repeat: no-repeat;
 	}
 body 
 	{
