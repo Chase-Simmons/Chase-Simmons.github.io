@@ -2,6 +2,13 @@
  	 {
 		float: right;
  	 }
+#background
+	{
+		background: url(Background.jpg) no-repeat center;
+  		height: 300px;
+  		position: relative;
+	}
+}
 body 
 	{
 		font: 18px Times New Roman;
