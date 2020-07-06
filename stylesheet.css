@@ -5,9 +5,10 @@
 body 
 	{
 		font: 16px Times new Roman;
-		background: url(Backgroundbase.jpg);{
+		background: linen;
   		max-width:700px;
  		margin: auto;
+		padding-bottom: 50px;
 	}
 #bodyContainer
 	{
