@@ -8,11 +8,6 @@ body
 		background: linen;
 		padding-bottom: 50px;
 	}
-#bodyContainer
-	{
-		width: 800px;
-		margin: 40px auto 60px;
-	}
 .date
 	{
 		float: right;
