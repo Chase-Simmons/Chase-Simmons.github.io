@@ -10,7 +10,7 @@ body
 		background-size: cover;
 		padding-bottom: 50px;
 	}
-aboutMe
+#aboutMe
 	{
 		font: 24px Times New Roman:
 		font-style : Bold;
@@ -24,12 +24,12 @@ aboutMe
   		max-width:800px;
   		margin: 30px auto 50px;
 	}
-name 	
+#name 	
 	{
 		font-size : 28px;
 		font-style : Bold;
 	}
-edu
+#edu
 	{
 		font-size : 28px;	
 	}
