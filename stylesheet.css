@@ -4,9 +4,13 @@
  	 }
 body 
 	{
-		font: 18px Times new Roman;
+		font: 18px Times New Roman;
 		background: linen;
 		padding-bottom: 50px;
+	}
+aboutMe
+	{
+		font: 24px Times New Roman:
 	}
 .date
 	{
