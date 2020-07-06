@@ -4,7 +4,7 @@
  	 }
 body 
 	{
-		font: 16px Times new Roman;
+		font: 18px Times new Roman;
 		background: linen;
 		padding-bottom: 50px;
 	}
@@ -15,7 +15,7 @@ body
 #wrap
 	{
   		max-width:800px;
-  		margin: 40px auto 60px;
+  		margin: 30px auto 50px;
 	}
 name 	
 	{
