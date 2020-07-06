@@ -5,7 +5,8 @@
 body 
 	{
 		font: 18px Times New Roman;
-		background: linen;
+		background-image: url(Backgroundbase.jpg); 
+		background-repeat: no-repeat;
 		padding-bottom: 50px;
 	}
 aboutMe
