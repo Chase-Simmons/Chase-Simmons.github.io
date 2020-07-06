@@ -1,8 +1,6 @@
 #picture
  	 {
-		position: absolute;
-      		top: 60px;
-      		left: 80px;
+		float : right;
 		 
 		background: url(Background.jpg) no-repeat center;
   		height: 300px;
