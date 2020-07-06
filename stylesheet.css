@@ -5,12 +5,12 @@
 body 
 	{
 		font: 18px Times new Roman;
-		background: linen;
 		padding-bottom: 50px;
 		background-image: url(Background.jpg);
  		background-repeat: no-repeat;
   		background-attachment: fixed;
   		background-position: center;
+		background: linen;
 	}
 .date
 	{
