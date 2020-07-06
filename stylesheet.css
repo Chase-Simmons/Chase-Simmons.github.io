@@ -30,9 +30,12 @@ body
 	{
 		font-size: 24px;
 		font-weight: bold;
-		border-bottom: 1px dotted;
 	}
 h3
 	{
 		border-bottom: 1px dotted;
+	}
+#skillsAndExperience
+	{
+			border-bottom: 1px dotted;
 	}
