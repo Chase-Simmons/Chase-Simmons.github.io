@@ -1,12 +1,12 @@
 #picture
-	{
-		float: right;
-	{		
+ 	 {
+		  float: right;
+ 	 }
 body 
 	{
-		font: 18px Times new Roman;
-		padding-bottom: 50px;
+		font: 16px Times new Roman;
 		background: linen;
+		padding-bottom: 50px;
 	}
 .date
 	{
@@ -15,15 +15,10 @@ body
 #wrap
 	{
   		max-width:800px;
-  		margin: 30px auto 50px;
+  		margin: 40px auto 60px;
 	}
 name 	
 	{
-		font-size : 42px;
-		font-weight : bold;
+		font-size : 28px;	
 	}
 		
-aboutMe
-	{
-		font: 28px Times new Roman;
-	}
