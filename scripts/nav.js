@@ -6,6 +6,11 @@ const contact = document.getElementById("nav-contact");
 const navItems = document.querySelectorAll(".nav-item");
 const navItemsByID = [about, works, extra, contact];
 
+const aboutSection = document.getElementById("about");
+const worksSection = document.getElementById("works");
+const extraSection = document.getElementById("extra");
+const contactSection = document.getElementById("contact");
+
 // METHODS
 const OnLoad = () => {
     about.firstChild.classList.add("nav-text-active");
