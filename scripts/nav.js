@@ -3,7 +3,7 @@ const works = document.getElementById("nav-works");
 const extra = document.getElementById("nav-extra");
 const contact = document.getElementById("nav-contact");
 
-const navItems = document.querySelectorAll(".nav-item");
+const navControls = document.querySelectorAll(".nav-text");
 const navItemsByID = [about, works, extra, contact];
 
 const aboutSection = document.getElementById("about");
@@ -11,23 +11,61 @@ const worksSection = document.getElementById("works");
 const extraSection = document.getElementById("extra");
 const contactSection = document.getElementById("contact");
 
-// METHODS
 const OnLoad = () => {
-    about.firstChild.classList.add("nav-text-active");
+
+    about.classList.add("nav-text-active");
+
+    navControls.forEach(nItem => nItem.addEventListener("click", () => {
+
+        HandleActive(nItem);
+
+        switch (nItem) {
+            case about:
+                window.scrollTo({
+                    left: 0,
+                    top: aboutSection.offsetTop,
+                    behavior: "smooth"
+                })
+                break;
+            case works:
+                window.scrollTo({
+                    left: 0,
+                    top: worksSection.offsetTop,
+                    behavior: "smooth"
+                })
+                break;
+            case extra:
+                window.scrollTo({
+                    left: 0,
+                    top: extraSection.offsetTop,
+                    behavior: "smooth"
+                })
+                break;
+            case contact:
+                window.scrollTo({
+                    left: 0,
+                    top: contactSection.offsetTop,
+                    behavior: "smooth"
+                })
+                break;
+
+            default:
+                break;
+        }
+    }));
 }
 
 const HandleActive = (activeItem) => {
-    navItemsByID.forEach(nItemBID => nItemBID.firstChild.classList.remove("nav-text-active"));
-    activeItem.firstChild.classList.add("nav-text-active");
+    navItemsByID.forEach(nItemBID => nItemBID.classList.remove("nav-text-active"));
+    activeItem.classList.add("nav-text-active");
 }
-///
 
-// EVENT LISTENERS
-navItems.forEach(nItem => nItem.firstChild.addEventListener("click", () => {
+window.addEventListener("load", (e) => {
+    OnLoad();
+});
 
-    HandleActive(nItem);
+window.addEventListener("scroll", (e) => {
 
-}));
-///
-
-OnLoad();
+    if (window.scrollY >= worksSection.offsetTop / 2) HandleActive(works);
+    else HandleActive(about);
+})
